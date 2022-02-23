@@ -1,0 +1,138 @@
+.form{
+    width: 100%;
+}
+
+.child_form{
+    float: left; 
+    width: 50%;
+  
+}
+.child_form_2{
+    float: left; 
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.child_form_3{
+    float:left; 
+    margin-top: 2%;
+    margin-left:20%;
+}
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.table_design{
+    height: 80vh;
+    width: 130%;
+    border-radius:20px;
+    max-height: 130%;
+    min-height: 130%;
+}
+.user_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .user_details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .user_fullname {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+  }
+
+.userdetails {
+    width: 110%;
+    height: 79vh;
+    background-color:white;
+    border-radius: 15%;
+    margin-left: 80%;
+    align-items: center;
+  }
+  
+  .userdetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .userdetail > * {
+    margin-bottom: 4%;
+  }
+
+  .imgdetails img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5%;
+  }
+  .namedetails {
+    display: flex;
+  }
+  .namedetails sup {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .userdetails1 button {
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    padding: 10px 45px;
+    font-weight: bold;
+  }
+  
+  .plandetails {
+    padding: 10px 30px;
+  }
+  .horizontaline {
+    display: flex;
+    flex-direction: row;
+  }
+  .hr1 {
+    margin: 10px 0;
+    border: 5px solid goldenrod;
+    color: goldenrod;
+    background-color:goldenrod;
+    width: 160%;
+    border-radius:20px;
+  }
+  .hr2 {
+    margin: 10px 0;
+    color: #f3e495;
+    background-color: #f3e495;
+    border: 5px solid #f3e495;
+    border-radius:20px;
+    width: 100%;
+  }
+  .clicks {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .clicks h2 {
+    letter-spacing: 1px;
+  }
+  .clicks p {
+    margin-top: 5px;
+  }
+
+  .select{
+    float: left;
+    color: #7c7c7c;
+    margin-left: 40px;
+  }

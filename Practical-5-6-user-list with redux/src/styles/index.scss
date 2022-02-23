@@ -1,0 +1,13 @@
+// Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "primary": #6200ea,
+    "success": #33691e,
+    "danger": #7c7c7c,
+    "warning": #ffab00,
+);
+
+body {
+    padding-top: 2rem;
+}
